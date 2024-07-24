@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> traillers Home</title>
+    <link rel="stylesheet" type="text/CSS" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>traillers Home</h1>
+    </header>
+    <main>
+        <section class="movie-section new">
+            <h2>New Releases</h2>
+            <div class="gallery">
+                <button class="thumbnail" onclick="handleClick('New Movie 1')">
+                    <img src="C:\Users\Shivam\OneDrive\Desktop\index.html\aliean.jpeg" alt="New Movie 1">
+                    <span class="overlay">New Movie 1</span>
+                </button>
+                <button class="thumbnail" onclick="handleClick('New Movie 2')">
+                    <img src="C:\Users\Shivam\OneDrive\Desktop\index.html\DUNE2.jpeg" alt="New Movie 2">
+                    <span class="overlay">New Movie 2</span>
+                </button>
+                <a href="C:\Users\Shivam\OneDrive\Desktop\index.html\index.html2.html"> 
+                <button class="thumbnail" onclick="handleClick('New Movie 3')">
+                    <img src="C:\Users\Shivam\OneDrive\Desktop\index.html\jokar.jpeg" alt="New Movie 3">
+                    <span class="overlay">New Movie 3</span>
+                </button> </a>
+                <a href="index.html">
+                <button class="thumbnail" onclick="handleClick('New Movie 3')">
+                    <img src="C:\Users\Shivam\OneDrive\Desktop\index.html\OIP.jpeg" alt="New Movie 3">
+                    <span class="overlay">New Movie 3</span>
+                </button> </a>
+            
+            </div>
+        </section>
+        <section class="movie-section popular">
+            <h2>Popular Trallers</h2>
+            <div class="gallery">
+                <button class="thumbnail" onclick="handleClick('Popular Movie 1')">
+                    <img src="popular-thumbnail1.jpg" alt="Popular Movie 1">
+                    <span class="overlay">Popular Movie 1</span>
+                </button>
+                <button class="thumbnail" onclick="handleClick('Popular Movie 2')">
+                    <img src="popular-thumbnail2.jpg" alt="Popular Movie 2">
+                    <span class="overlay">Popular Movie 2</span>
+                </button>
+                <button class="thumbnail" onclick="handleClick('Popular Movie 3')">
+                    <img src="popular-thumbnail3.jpg" alt="Popular Movie 3">
+                    <span class="overlay">Popular Movie 3</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function handleClick(movieTitle) {
+            alert('You selected: ' + movieTitle);
+        }
+    </script>
+</body>
+</html>
